@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Principal">
+      <UniqueIdentifier>{a71ae4c7-b45d-4141-aa65-c098632518d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Dialogos">
+      <UniqueIdentifier>{ab9e9eb5-df4e-49ea-bcec-23b3909fa4b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Principal">
+      <UniqueIdentifier>{b282b91a-6c1f-407d-b179-a3277eda8b09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Dialogos">
+      <UniqueIdentifier>{de8d5d7a-a8a2-4f53-9816-939f94f1a4b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grid Control">
+      <UniqueIdentifier>{2c599681-f89a-422e-8a55-a369e6cda42a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\Inventario.rc2">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="res\Inventario.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="resource.hm">
+      <Filter>Archivos de encabezado\Principal</Filter>
+    </None>
+    <None Include="res\Floppy Disk.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="res\MyComputer.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="res\server.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="res\laptop.ICO">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="res\printer.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="res\user.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="res\red.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="res\TOOLS.ICO">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="res\LOAD.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="res\TOOLS_NEW.ICO">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="res\EXIT.ICO">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="res\NEW_ELEMENT.ICO">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="res\MODIFY.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="res\WEB.ICO">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="res\ADSL.ICO">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="res\SEARCH_VABLES.ICO">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="res\MONITOR.ico">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="res\BACKUP.ICO">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="res\SERVIDORCORREO.ICO">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="res\sarriena.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="res\bitmap1.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="res\small_business54.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="res\Periféricos2-thumb.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+    <None Include="res\Inventario de Sistemas copia.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Inventario.h">
+      <Filter>Archivos de encabezado\Principal</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Archivos de encabezado\Principal</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Archivos de encabezado\Principal</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\CellRange.h">
+      <Filter>Grid Control</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\GridCell.h">
+      <Filter>Grid Control</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\GridCellBase.h">
+      <Filter>Grid Control</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\GridCtrl.h">
+      <Filter>Grid Control</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\GridDropTarget.h">
+      <Filter>Grid Control</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\InPlaceEdit.h">
+      <Filter>Grid Control</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\MemDC.h">
+      <Filter>Grid Control</Filter>
+    </ClInclude>
+    <ClInclude Include="GridCtrl_src\TitleTip.h">
+      <Filter>Grid Control</Filter>
+    </ClInclude>
+    <ClInclude Include="NewCellTypes\GridCellCheck.h">
+      <Filter>Grid Control</Filter>
+    </ClInclude>
+    <ClInclude Include="NewCellTypes\GridCellCombo.h">
+      <Filter>Grid Control</Filter>
+    </ClInclude>
+    <ClInclude Include="NewCellTypes\GridCellDateTime.h">
+      <Filter>Grid Control</Filter>
+    </ClInclude>
+    <ClInclude Include="NewCellTypes\GridCellNumeric.h">
+      <Filter>Grid Control</Filter>
+    </ClInclude>
+    <ClInclude Include="NewCellTypes\GridURLCell.h">
+      <Filter>Grid Control</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogInvMain.h">
+      <Filter>Archivos de encabezado\Dialogos</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogNewElement.h">
+      <Filter>Archivos de encabezado\Dialogos</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalData.h">
+      <Filter>Archivos de encabezado\Principal</Filter>
+    </ClInclude>
+    <ClInclude Include="ColumnTreeCtrl.h">
+      <Filter>Archivos de encabezado\Principal</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogVablesTipo.h">
+      <Filter>Archivos de encabezado\Dialogos</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogSearchVables.h">
+      <Filter>Archivos de encabezado\Dialogos</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Archivos de encabezado\Dialogos</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Inventario.cpp">
+      <Filter>Archivos de código fuente\Principal</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Archivos de código fuente\Principal</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl_src\GridCell.cpp">
+      <Filter>Grid Control</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl_src\GridCellBase.cpp">
+      <Filter>Grid Control</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl_src\GridCtrl.cpp">
+      <Filter>Grid Control</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl_src\GridDropTarget.cpp">
+      <Filter>Grid Control</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl_src\InPlaceEdit.cpp">
+      <Filter>Grid Control</Filter>
+    </ClCompile>
+    <ClCompile Include="GridCtrl_src\TitleTip.cpp">
+      <Filter>Grid Control</Filter>
+    </ClCompile>
+    <ClCompile Include="NewCellTypes\GridCellCheck.cpp">
+      <Filter>Grid Control</Filter>
+    </ClCompile>
+    <ClCompile Include="NewCellTypes\GridCellCombo.cpp">
+      <Filter>Grid Control</Filter>
+    </ClCompile>
+    <ClCompile Include="NewCellTypes\GridCellDateTime.cpp">
+      <Filter>Grid Control</Filter>
+    </ClCompile>
+    <ClCompile Include="NewCellTypes\GridCellNumeric.cpp">
+      <Filter>Grid Control</Filter>
+    </ClCompile>
+    <ClCompile Include="NewCellTypes\GridURLCell.cpp">
+      <Filter>Grid Control</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogInvMain.cpp">
+      <Filter>Archivos de código fuente\Dialogos</Filter>
+    </ClCompile>
+    <ClCompile Include="ColumnTreeCtrl.cpp">
+      <Filter>Archivos de código fuente\Principal</Filter>
+    </ClCompile>
+    <ClCompile Include="DBInvMain.cpp">
+      <Filter>Archivos de código fuente\Dialogos</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogNewElement.cpp">
+      <Filter>Archivos de código fuente\Dialogos</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalData.cpp">
+      <Filter>Archivos de código fuente\Principal</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogVablesTipo.cpp">
+      <Filter>Archivos de código fuente\Dialogos</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogSearchVables.cpp">
+      <Filter>Archivos de código fuente\Dialogos</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Archivos de código fuente\Dialogos</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Inventario.rc">
+      <Filter>Archivos de recursos</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

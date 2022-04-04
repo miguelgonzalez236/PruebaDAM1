@@ -1,0 +1,49 @@
+﻿Compilación iniciada a las 18/06/2012 13:36:07.
+     1>Proyecto "C:\_ Programacion\Inventario\Inventario\Inventario.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Inventario\Inventario.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         Todas las salidas están actualizadas.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Inventario\Inventario.pch" /Fo"Inventario\\" /Fd"Inventario\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DialogInvMain.cpp DialogNewElement.cpp DialogVablesTipo.cpp
+         DialogInvMain.cpp
+         DialogNewElement.cpp
+         DialogVablesTipo.cpp
+       ResourceCompile:
+         Todas las salidas están actualizadas.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\_ Programacion\Inventario\Inventario\Inventario.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Inventario\Inventario.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\_ Programacion\Inventario\Inventario\Inventario.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\_ Programacion\Inventario\Inventario\Inventario.lib" /MACHINE:X86 Inventario\Inventario.res
+         Inventario\ColumnTreeCtrl.obj
+         Inventario\DBInvMain.obj
+         Inventario\DialogInvMain.obj
+         Inventario\DialogNewElement.obj
+         Inventario\DialogSearchVables.obj
+         Inventario\GlobalData.obj
+         Inventario\GridCell.obj
+         Inventario\GridCellBase.obj
+         Inventario\GridCtrl.obj
+         Inventario\GridDropTarget.obj
+         Inventario\InPlaceEdit.obj
+         Inventario\TitleTip.obj
+         Inventario\Inventario.obj
+         Inventario\GridCellCheck.obj
+         Inventario\GridCellCombo.obj
+         Inventario\GridCellDateTime.obj
+         Inventario\GridCellNumeric.obj
+         Inventario\GridURLCell.obj
+         Inventario\stdafx.obj
+         Inventario\DialogVablesTipo.obj
+         Generando código
+     1>c:\_ programacion\inventario\inventario\dialoginvmain.cpp(425): warning C4715: 'CDialogInvMain::GetIconType' : no todas las rutas de acceso de control devuelven un valor
+     1>c:\_ programacion\inventario\inventario\dialogsearchvables.cpp(261): warning C4715: 'CDialogSearchVables::SetOrdenEnColumna' : no todas las rutas de acceso de control devuelven un valor
+         Generación de código finalizada
+         Inventario.vcxproj -> C:\_ Programacion\Inventario\Inventario\Inventario.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\_ Programacion\Inventario\Inventario\Inventario.exe;#1" /manifest Inventario\Inventario.exe.intermediate.manifest "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Inventario\Inventario.unsuccessfulbuild".
+         Aplicando tarea Touch a "Inventario\Inventario.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\_ Programacion\Inventario\Inventario\Inventario.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:05.56

@@ -1,0 +1,28 @@
+﻿Compilación iniciada a las 27/06/2014 13:48:23.
+     1>Proyecto "C:\__ SARRIENA\_ Programacion\Inventario\Inventario\Inventario.vcxproj" en el nodo 2 (build destinos).
+     1>PrepareForBuild:
+         Creando directorio "C:\__ SARRIENA\_ Programacion\Inventario\x64\Release\".
+       InitializeBuildStatus:
+         Se creará "x64\Release\Inventario.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         Todas las salidas están actualizadas.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Release\Inventario.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt DBInvMain.cpp DialogInvMain.cpp DialogNewElement.cpp DialogSearchVables.cpp DialogVablesTipo.cpp GlobalData.cpp GridCtrl_src\GridCtrl.cpp Log.cpp
+         DBInvMain.cpp
+         DialogInvMain.cpp
+     1>DialogInvMain.cpp(159): warning C4244: 'inicializando' : conversión de 'UINT_PTR' a 'UINT'; posible pérdida de datos
+         DialogNewElement.cpp
+     1>DialogNewElement.cpp(429): warning C4244: 'inicializando' : conversión de 'UINT_PTR' a 'UINT'; posible pérdida de datos
+         DialogSearchVables.cpp
+     1>DialogSearchVables.cpp(90): warning C4244: 'inicializando' : conversión de 'UINT_PTR' a 'UINT'; posible pérdida de datos
+         DialogVablesTipo.cpp
+     1>DialogVablesTipo.cpp(184): warning C4244: 'inicializando' : conversión de 'UINT_PTR' a 'UINT'; posible pérdida de datos
+         GlobalData.cpp
+         GridCtrl.cpp
+     1>GridCtrl_src\GridCtrl.cpp(457): error C2440: 'static_cast' : no se puede realizar la conversión de 'void (__cdecl CGridCtrl::* )(UINT)' a 'void (__cdecl CWnd::* )(UINT_PTR)'
+                 La conversión de la base al elemento derivado requiere dynamic_cast o static_cast
+         Log.cpp
+     1>Compilación del proyecto terminada "C:\__ SARRIENA\_ Programacion\Inventario\Inventario\Inventario.vcxproj" (build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:01:28.03
